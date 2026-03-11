@@ -85,7 +85,7 @@ public class RagdollMe : MonoBehaviour
 
     public void Ragdoll(Vector3 impact)
     {
-        if (impact.magnitude < 3f)
+        if (impact.magnitude < 4f)
         {
             return;
         }
